@@ -1,4 +1,4 @@
-package com.mateacademy.factory_method;
+package com.mateacademy.factorymethod;
 
 public interface ProxyInterface {
     double add(double first, double second);

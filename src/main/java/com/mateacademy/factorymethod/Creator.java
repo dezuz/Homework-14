@@ -1,4 +1,4 @@
-package com.mateacademy.factory_method;
+package com.mateacademy.factorymethod;
 
 public abstract class Creator {
     public abstract void factoryMethod();

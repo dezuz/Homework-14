@@ -1,4 +1,4 @@
-package com.mateacademy.factory_method;
+package com.mateacademy.factorymethod;
 
 public class ProxyCreator extends Creator {
     @Override

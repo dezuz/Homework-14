@@ -1,4 +1,4 @@
-package com.mateacademy.аbstract_factory;
+package com.mateacademy.аbstractfactory;
 
 public class Application {
     private Button button;

@@ -1,5 +1,8 @@
-package com.mateacademy.factory_method;
+package com.mateacademy.factorymethod;
 
+import lombok.Getter;
+
+@Getter
 public class BuilderProduct {
     private final int reqFieldOne;
     private final int reqFieldTwo;
@@ -17,7 +20,7 @@ public class BuilderProduct {
         optFieldFour = builder.optFieldFour;
     }
 
-    public static class Builder implements  BuilderInterface{
+    public static class Builder implements BuilderInterface{
         private final int reqFieldOne;
         private final int reqFieldTwo;
         private int optFieldOne = 0;
